@@ -1,0 +1,295 @@
+body{
+    width: 100%;
+    height: 100vh;
+    top:0;
+    left: 0;
+    margin: 0;
+    background: url(../fondo.jpg) ;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+body::before{
+    content: "";
+    width: 100%;
+    height: 100vh;
+    background:rgb(32, 32, 56); ;
+    position: absolute;
+    opacity: 0.7;
+    z-index: -1;
+
+}
+.todo{
+    display: block;
+}
+.payday{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.contenido{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.contenido .personajes{
+    width: 250px;
+    height: 300px;
+    display: flex;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 20px white;
+    border: 3px solid white;
+    border-radius: 24px;
+    background: white;
+
+}
+.dallas2{
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.dallas{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    position: absolute;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 2;
+    opacity:0;
+
+  /*  background-color:  rgb(32, 32, 56);*/
+   
+}
+
+.dallas img{
+    width: 200px;
+    height: 175px;
+    margin-top: 10px;
+    border-radius: 24px;
+}
+
+.dallas p{
+    color:black;
+    font-size: 20px;
+    font-family: Roboto;
+}
+
+
+/* hoxton*/
+
+.hoxton2{
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.hoxton{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    position: absolute;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 5;
+    opacity:0;
+    
+}
+
+.hoxton img{
+    width: 200px;
+    height: 175px;
+    margin: 10px;
+    border-radius: 24px;
+}
+
+.hoxton p{
+    color: black;
+    font-size: 20px;
+    font-family: Roboto;
+}
+
+
+
+/* chains*/
+
+.chains2{
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.chains{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    position: absolute;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 5;
+    opacity:0;    
+}
+
+.chains img{
+    width: 200px;
+    height: 175px;
+    margin: 10px;
+    border-radius: 24px;
+}
+
+.chains p{
+    color: black;
+    font-size: 20px;
+    font-family: Roboto;
+}
+
+
+
+/* wolf*/
+
+.wolf2{
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.wolf{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    position: absolute;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 7;
+    opacity:0;
+    
+}
+
+.wolf img{
+    width: 200px;
+    height: 175px;
+    margin: 10px;
+    border-radius: 24px;
+}
+
+.wolf p{
+    color: black;
+    font-size: 20px;
+    font-family: Roboto;
+}
+
+
+
+/* Bain*/
+
+.bain2{
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.bain{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    position: absolute;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 7;
+    opacity: 1;
+}
+
+.bain img{
+    width: 200px;
+    height: 175px;
+    margin: 10px;
+    border-radius: 24px;
+}
+
+.bain p{
+    color: black;
+    font-size: 20px;
+    font-family: Roboto;
+}
+
+.mascaras{
+    width: 400px;
+    height: 300px;
+    flex-wrap: wrap;
+}
+
+.mascaras img{
+    width: 150px;
+    height: 150px;
+}
+
+
+
+.show{
+    pointer-events: auto;
+    opacity: 1;
+}
+
+.show2{
+    pointer-events: auto;
+    opacity: 0;
+}
+
+a{
+    flex-wrap: wrap;
+    font-size: 20px;
+    color: white;
+}
+
+h3{
+    color: white;
+    font-size: 15px;
+}
+
+h2{
+    color: white;
+    font-size: 20px;
+}
